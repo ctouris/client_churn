@@ -22,7 +22,7 @@ The code produces pie charts for the target variable 'Dado_de_baja' and bar char
 
 After cleaning, preparing, and performing exploratory data analysis, we proceeded to perform a Cross-Validation K-fold model estimation with Boosting. These are commonly used techniques in supervised machine learning for classification models. The combination of both techniques is used to improve the model's accuracy and avoid overfitting.
 
-Then, plotted the variables and their importance as predictors of our target variable. The result is that the variable that correlates the most with customer churn is "Var_cuota_ult_ano" (variation of the last year's fee), followed by "Ingreso" (income). The variables that turned out to be less predictive are "Sexo" (gender), followed by "Recibio_oferta" (received offer).
+Then, plotted the variables and their importance as predictors of our target variable. The result is that the variable that correlates the most with customer churn is 'Var_cuota_ult_ano' (variation of the last year's fee), followed by 'Ingreso' (income). The variables that turned out to be less predictive are 'Sexo' (gender), followed by 'Recibio_oferta' (received offer).
 
 Finally, the Cross-Validation K-fold model provides us with the prediction results. Therefore, we must choose the model that maximizes our gain from all the models and select its parameters. Then, we set the model's cutoff and run the model for a database that does not contain our target variable to test the model we just trained. The results obtained were sent to the professor.
 
